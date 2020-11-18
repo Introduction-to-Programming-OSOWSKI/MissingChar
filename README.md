@@ -1,17 +1,29 @@
-# **Assignment Title**  
+# **Missing Character**  
 
 ## **Assignment Description**  
-
+Given a non-empty string str and an int n, return a new string where the char at index n has been removed. The method should be called mssingChar.
 
 ## **Examples**  
->
+>missingChar("Alfredo", 0)  
+lfredo
+
+>missingChar("Linguine", 3)  
+Linuine  
+
+>missingChar("Cavatappi", 8)  
+Cavatapp
 
 ## **Limitations**  
+1 method  
+0 if/else   
 
 ## **Hints**  
+Use str.substring()  
+str.length() returns the number of characters in a String  
+Use concatenation to combine two Strings
 
 ## **Concepts**  
-
+Methods, String, int, substring()
 
 ---
 

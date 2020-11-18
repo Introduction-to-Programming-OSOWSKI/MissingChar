@@ -16,7 +16,9 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals("inter", App.missingChar("Winter", 0), "INCORRECT");
+       assertEquals("Sumer", App.missingChar("Summer", 2), "INCORRECT");
+       assertEquals("Sprin", App.missingChar("Spring", 5), "INCORRECT");
    }
 
 }
